@@ -17,21 +17,21 @@ The additional functionality is added using the d3 JavaScript library to detect 
 ### Results:  
 
 The UFO Sightings webpage was styled using bootstrap.  It creates a nice visual that stands out.  
-[UFO Sightings webpage](UFP_Sightings.png)  
+![UFO Sightings webpage](UFP_Sightings.png)  
   
 The first task was to create additional data entry fields for the filters.    The filters are created in an unordered list using the <label> and <input> tags.  
   
-[Data entry fields for filters](data_entry_fields.png)
+![Data entry fields for filters](data_entry_fields.png)
   
 The selectAll.on('change') function from the d3 library listens for any changes to the filter input boxes.  With each detected filter change a filter criteria is added to an object and a function is called that loops through the filters object and uses a series of if statements to appropriately filter the raw data.  
   
 To perform a filter simply click in the appropriate input field, type in your filter criteria (making sure to match the format of the default value) and press enter.  THe figure below shows sightings in Texas.  
   
-[tx_sightings_filter_results](tx_sightings_filter_results.png)  
+![tx_sightings_filter_results](tx_sightings_filter_results.png)  
   
 To add another search criteria click in another filter and enter an appropriate text string.  The example below adds a filter for light as the shape of the UFO.  
   
-[added shape filter](state_and_shape_filters.png)  
+![added shape filter](state_and_shape_filters.png)  
   
 ### Summary:  
   
