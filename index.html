@@ -35,19 +35,36 @@
                 </div>
             </div>
         </div>
+<!--Create a container that will resize to width of screen-->
         <div class = "container-fluid">
             <div class = "row">
+<!--Create the filter search portion of the row (3/12 of the screen)-->
                 <div class = "col-md-3">
+<!--Create the filter form and set bootstrap stryl to dark background-->
                     <form class = "bg-dark">
                         <p>Filter search</p>
+<!-- Create unordered list to hold the filter elements-->
                         <ul class = "list-group bg-dark">
                             <li class = "list-group-item bg-dark">
                                 <label for = "date">Enter Date</label>
                                 <input type = "text" placeholder = "1/10/2010" id="datetime" />
+                            <li class = "list-group-item bg-dark">
+                                <label for = "city">Enter City</label>
+                                <input type = "text" placeholder = "austin" id="city" />
                             </li>
-                            <li class = "list-group-item bg-dark" >
-                                <button id = "filter-btn" type = "button" class = "btn btn-dark">Filter Table</button>
+                            <li class = "list-group-item bg-dark">
+                                <label for = "state">Enter State</label>
+                                <input type = "text" placeholder = "tx" id="state" />
                             </li>
+                            <li class = "list-group-item bg-dark">
+                                <label for = "country">Enter Country</label>
+                                <input type = "text" placeholder = "us" id="country" />
+                            </li>
+                            <li class = "list-group-item bg-dark">
+                                <label for = "shape">Enter Shape</label>
+                                <input type = "text" placeholder = "triangle" id="shape" />
+                            </li>
+<!--Removed date filter button-->                      
                         </ul>
                     </form>
                 </div>
