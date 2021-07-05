@@ -19,7 +19,7 @@ The additional functionality is added using the d3 JavaScript library to detect 
 The UFO Sightings webpage was styled using bootstrap.  It creates a nice visual that stands out.  
 ![UFO Sightings webpage](UFO_sightings.png)  
   
-The first task was to create additional data entry fields for the filters.    The filters are created in an unordered list using the <label> and <input> tags.  
+The first task was to create additional data entry fields for the filters.    The filters are created in an unordered list using the label and input tags.  
   
 ![Data entry fields for filters](data_entry_fields.png)
   
